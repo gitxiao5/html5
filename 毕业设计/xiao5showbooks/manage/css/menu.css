@@ -1,0 +1,124 @@
+#TEL{
+	
+	position:relative;
+	float:right;
+	color:#000;
+	top:15px;
+	font-size:16px;
+	font-family:"微软雅黑";
+}
+.contWidth a img{
+	position:relative;
+	top:10px;
+}
+
+#menu1{
+	position:relative;
+	float:left;
+	padding-top:12px;
+}
+#body{
+	margin:0 auto;
+	width:990px;
+}
+#biao1{
+	margin:0 auto;
+	height:40px;
+	background-color:#efefef;
+	color:#666;
+	font-size:14px;
+	border:1px solid #AAA;
+}
+#biao1 .th{
+	border-right:1px solid #fff;
+	text-align:center;
+}
+#biao2{
+	position:relative;
+	width:990px;
+	margin:0 auto;
+	height:40px;
+	background-color:#efefef;
+	color:#777;
+	font-size:12px;
+	text-align:center;
+	border-bottom:1px dotted #BBB;
+	border-right:1px solid #AAA;
+	border-left:1px solid #AAA;
+	display:block;
+	padding:5px;
+}
+#img{
+	position:relative;
+	width:990px;
+	margin:0 auto;
+}
+#img img{
+	width:989px;
+	border-right:1px solid #AAA;
+	border-left:1px solid #AAA;
+}
+#img1{
+	top:200px;
+	position:relative;
+	float:left;
+}
+#img2{
+	top:200px;
+	position:relative;
+	float:right;
+}
+#menu1{
+	width:990px;
+	margin:0 auto;
+}
+#body2{
+	width:990px;
+	position:relative;
+	margin:0 auto;
+}
+#tips{
+	position:relative;
+	display:block;
+	margin-left:0px;
+}
+.menu2-tips{
+	font-size: 16px;
+    font-weight: bold;
+    padding-left:0px;
+}
+#address-1{
+	width:990px;
+	background-color:#efefef;
+}
+#address-1 li{
+	padding:0 0 10px 0;
+}
+#address-1 li span{
+	display:inline-block;
+	width:65px;
+	text-align:center;
+}
+#address-1 li input{
+	border: 1px solid #808990;
+    height: 22px;
+    line-height: 22px;
+    display:inline-block;
+	left:0px;
+}
+#send-1{
+	height:50px;
+	background-color:#efefef;
+}
+#pay-1{
+	height:25px;
+	background-color:#efefef;
+}
+#bill-1{
+	background:#efefef;
+}
+#bill-img{
+	float:right;
+}
+
+

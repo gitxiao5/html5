@@ -1,0 +1,59 @@
+body { font:12px/19px Arial, Helvetica, sans-serif; color:#666;}
+form div { margin:5px 0;}
+.int label { float:left; width:100px; text-align:right;}
+.int input { padding:1px 1px; border:1px solid #ccc;height:16px;}
+.sub { padding-left:100px;}
+.sub input { margin-right:10px; }
+.formtips{width: 200px;margin:2px;padding:2px;}
+.onError{
+    background:#FFE0E9 url(../images/reg3.gif) no-repeat 0 center;
+	padding-left:25px;
+}
+.onSuccess{
+    background:#E9FBEB url(../images/reg4.gif) no-repeat 0 center;
+	padding-left:25px;
+}
+.high{
+    color:red;
+}
+}
+body{
+	background-color:#bbb;
+}
+
+#content{
+	background-color:#efefef;
+	width:480px;
+	height:300px;
+	margin:0 auto;
+	padding-top:100px;
+}
+
+#password{
+	margin-top:0px;
+	padding-left:10px;
+	width:200px;
+	padding:1px;
+}
+#username{
+	
+	width:200px;
+	padding:1px;
+}
+body form{
+	margin-top:60px;
+}
+body form table tbody tr{
+	width:400px;
+	height:30px;
+	position:relative;
+	padding:5px;
+}
+#send{
+	margin-top:10px;
+	margin-left:-120px;
+}
+p{
+	margin-left:30px;
+}
+
