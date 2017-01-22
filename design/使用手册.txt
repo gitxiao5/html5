@@ -1,0 +1,6 @@
+统一编码UTF-8
+数据库名：xiao5showbooks
+管理首页:xiao5showbooks/manage/index.php
+前台首页:xiao5showbooks/index.html
+管理员: root xiao5showbooks
+
