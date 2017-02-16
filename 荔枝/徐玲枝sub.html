@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新年快乐</title>
+    <style>
+         *{
+             margin: 0;
+             padding:0;
+         }
+        div{
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        ul{
+            width: 800%;
+            height: 100%;
+            background-color: #000;
+            animation: move 30s linear 0s infinite normal;
+        }
+
+        ul li{
+            float: left;
+            list-style: none;
+            width: 13%;
+            height: 100%;
+            background-color: #23EBD7;
+            border: 60px solid #23EBD7;
+            border-left: 0px;
+            box-sizing: border-box;
+        }
+        ul li img{
+            width: 100%;
+            height: 110%;
+        }
+        ul:hover{
+            animation-play-state: paused;
+        }
+        ul:hover li{
+            opacity: 0.5;
+        }
+        ul li:hover{
+            opacity: 1;
+        }
+        @keyframes move {
+            from{
+                margin-left: 0;
+            }
+            to{
+                margin-left: -625%;
+            }
+        }
+    </style>
+</head>
+<body>
+  <div>
+       <ul>
+          <li><img src="images/shuzhisub/青春机电网络3141班83.jpg" alt=""></li>
+          <li><img src="images/shuzhisub/青春机电网络3141班84.jpg" alt=""></li>
+          <li><img src="images/shuzhisub/青春机电网络3141班85.jpg" alt=""></li>
+          <li><img src="images/shuzhisub/青春机电网络3141班86.jpg" alt=""></li>
+          <li><img src="images/shuzhisub/青春机电网络3141班87.jpg" alt=""></li>
+          <li><img src="images/shuzhisub/青春机电网络3141班88.jpg" alt=""></li>
+          <li><img src="images/shuzhisub/青春机电网络3141班83.jpg" alt=""></li>
+        <!--
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>Laura Story - I Can Just Be Me.mp3
+          <li>6</li>-->
+       </ul>
+  </div>
+  <audio src="images\shuzhisub\Laura Story - I Can Just Be Me.mp3" autoplay="autoplay" loop="loop"></audio>
+</body>
+</html>

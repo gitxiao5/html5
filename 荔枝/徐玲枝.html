@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新的一年来了，唉这又老了。</title>
+	<link rel = "stylesheet" type = "text/css" href = "css/thickbox.css"></link>
+	<script src = "scripts/jquery.js"></script>
+	<script src = "scripts/jquery.thickbox.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: url("images/shuzhi/bg.jpg") no-repeat;
+            background-size:cover;
+            overflow: hidden;
+        }
+        ul{
+            width: 200px;
+            height: 200px;
+            /*background-color: red;*/
+            position: absolute;
+            bottom: 100px;
+            left: 55%;
+            margin-left:-100px;
+            transform-style: preserve-3d;
+            /*transform: rotateX(-10deg);*/
+            animation: sport 6s linear 0s infinite normal;
+        }
+        ul li{
+            list-style: none;
+            width: 200px;
+            height: 200px;
+            font-size: 60px;
+            text-align: center;
+            line-height: 200px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: black;
+        }
+        ul li:nth-child(1){
+            transform: rotateY(60deg) translateZ(200px);
+        }
+        ul li:nth-child(2){
+            transform: rotateY(120deg) translateZ(200px);
+        }
+        ul li:nth-child(3){
+            transform: rotateY(180deg) translateZ(200px);
+        }
+        ul li:nth-child(4){
+            transform: rotateY(240deg) translateZ(200px);
+        }
+        ul li:nth-child(5){
+            transform: rotateY(300deg) translateZ(200px);
+        }
+        ul li:nth-child(6){
+            transform: rotateY(360deg) translateZ(200px);
+        }
+        ul li img{
+            width: 200px;
+            height: 200px;
+            border: 5px solid skyblue;
+            box-sizing: border-box;
+        }
+        ul:hover{
+            animation-play-state: paused;
+        }
+        ul:hover li img{
+            opacity: 0.5;
+        }
+        ul li:hover img{
+            opacity: 1;
+        }
+        @keyframes sport {
+            from{
+               
+                transform: rotateX(-10deg) rotateY(0deg);
+            }
+            to{
+                transform: rotateX(-10deg) rotateY(360deg);
+            }
+        }
+        .heart{
+            width: 173px;
+            height: 157px;
+            position: absolute;
+            left: 100px;
+            bottom: 100px;
+            animation: move 10s linear 0s infinite normal;
+        }
+        @keyframes move {
+            0%{
+                left: 100px;
+                bottom: 100px;
+                opacity: 1;
+            }
+            20%{
+                left: 300px;
+                bottom: 300px;
+                opacity: 0;
+            }
+            40%{
+                left: 500px;
+                bottom: 500px;
+                opacity: 1;
+            }
+            60%{
+                left: 800px;
+                bottom: 300px;
+                opacity: 0;
+            }
+            80%{
+                left: 1200px;
+                bottom: 100px;
+                opacity: 1;
+            }
+            100%{
+                left: 800px;
+                bottom: -200px;
+            }
+        }
+    </style>
+</head>
+<body><!--<a title="介绍文字" id="thickImg" href="images/jacky/4.gif" class="thickbox"><img src="images/jacky/7.jpg" alt=""></a>-->
+<ul>
+    <li><a title="①徐玲枝同学：Happy New Year" id="thickImg" href="images/shuzhi/7.jpg" class="thickbox"><img src="images/shuzhi/1.png" alt=""></a></li>
+    <li><a title="②过年别吃太多了" id="thickImg" href="images/shuzhi/8.jpg" class="thickbox"><img src="images/shuzhi/2.jpg" alt=""></a></li>
+    <li><a title="③肥了没人要" id="thickImg" href="images/shuzhi/9.jpg" class="thickbox"><img src="images/shuzhi/3.jpg" alt=""></a></li>
+    <li><a title="④当你看到这些内容的时候" id="thickImg" href="images/shuzhi/10.jpg" class="thickbox"><img src="images/shuzhi/4.gif" alt=""></a></li>
+    <li><a title="⑤我想心情应该是。。。" id="thickImg" href="images/shuzhi/11.jpg" class="thickbox"><img src="images/shuzhi/5.jpg" alt=""></a></li>
+    <li><a title="⑥你要是找到实习了，把地址发我。" id="thickImg" href="images/shuzhi/12.jpg" class="thickbox"><img src="images/shuzhi/6.jpg" alt=""></a></li>
+</ul>
+<a href = "徐玲枝sub.html"><img src="images/shuzhi/xin.png" class="heart"></a>
+<audio src="images/shuzhi/直觉告诉我,不要错过。.mp3" autoplay="autoplay" loop="loop"></audio>
+</body>
+</html>
