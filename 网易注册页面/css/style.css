@@ -1,0 +1,223 @@
+/*1.清空默认边距*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0
+}
+/*2.清空默认样式*/
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+ul, ol{
+    list-style: none;
+}
+body{
+    background-color: #f8f8f8;
+}
+div{
+    margin: 0 auto;
+}
+.header{
+    width: 960px;
+    height: 80px;
+   /* background-color: red;*/
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+.header .logo{
+    float: left;
+    width: 644px;
+    height: 27px;
+    background:url("../images/logo.png") no-repeat 0 0;
+}
+.header .logo a{
+    display: inline-block;
+    width: 130px;
+    height: 27px;
+   /* background-color: blue;*/
+}
+.header .tips{
+    float: right;
+    height: 27px;
+    width: 200px;
+    /*background-color: skyblue;*/
+    text-align: right;
+}
+.header .tips a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height:27px;
+   /* background-color: purple;*/
+}
+.content{
+    width: 960px;
+    height: 600px;
+   /* background-color: yellow;*/
+}
+.content .top{
+    width: 960px;
+    height: 38px;
+    /*background-color: red;*/
+    background:url("../images/网易注册界面 (2).png") repeat-x;
+}
+.content .top .left{
+    width: 960px;
+    height: 38px;
+    background:url("../images/网易注册界面left.png") no-repeat left 0;
+}
+.content .top .right{
+    width: 960px;
+    height: 38px;
+    line-height:38px;
+    color: #FFF;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left:20px;
+    background:url("../images/网易注册界面right.png") no-repeat right 0;
+}
+.content .bottom{
+    width: 960px;
+    height: 562px;
+    background-color: #FFF;
+}
+.content .bottom .article{
+    border-left:1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    float: left;
+    width: 641px;
+    height: 562px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 81px;
+    /*background-color:yellow;*/
+}
+.content .bottom .aside{
+    float: right;
+    width: 319px;
+    height: 562px;
+    background-color: #f4f4f4;
+    padding-top:106px;
+    padding-left: 48px;
+    border:1px solid #CCC;
+    border-top: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content .bottom .article .articleTop{
+    width: 560px;
+    height: 60px;
+   /* background-color:skyblue;*/
+}
+.content .bottom .article .articleTop ul{
+    width: 412px;
+    height: 34px;
+    background:url("../images/tab.jpg") no-repeat left 0;
+    list-style:none;
+}
+.content .bottom .article .articleTop ul li{
+    float: left;
+    width: 137px;
+    height: 34px;
+    /*color: #FFF;*/
+    line-height: 34px;
+    display: inline-block;
+    text-align: center;
+}
+.content .bottom .article .articleTop ul li span{
+    color: #FFF;
+}
+.content .bottom .article .articleBottom{
+    width: 560px;
+    height: 373px;
+    /*background-color:tomato;*/
+}
+
+.content .bottom .article .articleBottom .line{
+    float: left;
+    width: 412px;
+    height: 28px;
+   /* background-color: palegreen;*/
+    clear: both;
+}
+.content .bottom .article .articleBottom .line span{
+    float: left;
+    height: 28px;
+    width: 59px;
+    background-color: #fff;
+    font-size: 12px;
+    text-align: right;
+    line-height: 28px;
+}
+.content .bottom .article .articleBottom .line span .star{
+    color:red;
+    width: 1px;
+
+}
+.content .bottom .article .articleBottom .line .special input{
+    width: 328px;
+    height: 24px;
+}
+.content .bottom .article .articleBottom .line div{
+    float: right;
+    height: 28px;
+    width: 333px;
+   /* background-color:purple;*/
+}
+.content .bottom .article .articleBottom .line div input{
+    width: 214px;
+    height: 24px;
+    color: #CCC;
+    border:1 solid #ccc;
+}
+.content .bottom .article .articleBottom .line div select{
+    width: 100px;
+    height: 28px;
+}
+.content .bottom .article .articleBottom p{
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-left: 80px;
+    line-height:28px;
+    width: 480px;
+   /* margin-top: 5px;*/
+    color: #CCC;
+}
+.content .bottom .article .articleBottom .line div img{
+    width: 100px;
+    height: 30px;
+    float: right;
+}
+.content .bottom .article .articleBottom .xy{
+    width: 332px;
+    height: 28px;
+    line-height: 28px;
+    font-size:12px;
+
+}
+.content .bottom .article .articleBottom .xy a{
+    color: blue;
+}
+.content .bottom .article .articleBottom input[type=submit]{
+    width: 119px;
+    height: 37px;
+    background:url("../images/logo.png") no-repeat -144px -360px;
+    border: 0px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight:700;
+    margin-top: 28px;
+}
+.footer{
+    width: 960px;
+    height: 50px;
+    /*background-color: green;*/
+    text-align: center;
+    line-height:50px;
+    font-size: 12px;
+    color: #BBB;
+}
